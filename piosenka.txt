@@ -4,10 +4,7 @@ zwrotka2.txt
 
 refren1.txt
 
-Nasze oczy wreszcie się spotkały,
-jak odbicia zagubionych gwiazd.
-Byłaś blisko, wszystko zrozumiałem,
-Kto odejdzie zawsze będzie sam.
+zwrotka3.txt
 
 Na zawsze i na wieczność, uczyńmy z życia święto,
 By będąc tu przez chwilę wszystko zapamiętać.
