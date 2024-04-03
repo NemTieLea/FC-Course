@@ -6,10 +6,7 @@ refren1.txt
 
 zwrotka3.txt
 
-Na zawsze i na wieczność, uczyńmy z życia święto,
-By będąc tu przez chwilę wszystko zapamiętać.
-Nasza droga nigdy się nie skończy,
-A kto odejdzie zawsze będzie sam.
+zwrotka4.txt
 
 Tyle samotnych dróg musiałem przejść bez Ciebie.
 Tyle samotnych dróg musiałem przejść by móc,
