@@ -1,9 +1,6 @@
 zwrotka1.txt
 
-Nie wiedziałem, co się ze mną dzieje,
-Wszystko znikło byłaś tylko ty.
-Stałaś w tęczy jak zaczarowana,
-Świeciło słonce a z nieba padał deszcz.
+zwrotka2.txt
 
 Tyle samotnych dróg musiałem przejść bez Ciebie.
 Tyle samotnych dróg musiałem przejść by móc,
