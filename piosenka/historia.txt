@@ -1,0 +1,407 @@
+log pliku piosenka.txt
+
+commit 69c64ab03db8e8ec85b9d548b91120bc57638423 (HEAD -> master)
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:17:34 2024 +0200
+
+    zastapienie 2 plikow refrenu jednym
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 687b999..d742913 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,13 +2,10 @@ zwrotka1.txt
+
+ zwrotka2.txt
+
+-Tyle samotnych dróg musiałem przejść bez Ciebie.
+-Tyle samotnych dróg musiałem przejść by móc,
+-odnaleźć Ciebie tu.
+-I wtedy padał deszcz.
++refren.txt
+
+ zwrotka3.txt
+
+ zwrotka4.txt
+
+-refren2.txt
++refren.txt
+
+commit f67d297f74ee8b265c43f5849dbc0d418caa3e1f
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:08:57 2024 +0200
+
+    Revert "przeniesienie 1 refrenu do pliku refren1.txt"
+
+    This reverts commit 42336b1d566d7aa2f24de41799ec8cde33e56586.
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 7bbd924..687b999 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,7 +2,10 @@ zwrotka1.txt
+
+ zwrotka2.txt
+
+-refren1.txt
++Tyle samotnych dróg musiałem przejść bez Ciebie.
++Tyle samotnych dróg musiałem przejść by móc,
++odnaleźć Ciebie tu.
++I wtedy padał deszcz.
+
+ zwrotka3.txt
+
+
+commit c7d84b4b3cca2ece7253fa3d82f216755d1cba53
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:53:11 2024 +0200
+
+    przeniesienie 2 refrenu do pliku refren2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index d67ec80..7bbd924 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,11 +8,4 @@ zwrotka3.txt
+
+ zwrotka4.txt
+
+-Tyle samotnych dróg musiałem przejść bez Ciebie.
+-Tyle samotnych dróg musiałem przejść by móc,
+-odnaleźć Ciebie tu.
+-I wtedy padał deszcz. 2x
+-
+-Tyle samotnych dróg musiałem przejść bez Ciebie.
+-Tyle samotnych dróg musiałem przejść by móc,
+-odnaleźć Ciebie tu.
++refren2.txt
+
+commit 8e74437b1c641edd7055f39b306d8a7f2f1b6a53
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:51:44 2024 +0200
+
+    przeniesienie 4 zwrotki do pliku zwrotka4.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 334862c..d67ec80 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,10 +6,7 @@ refren1.txt
+
+ zwrotka3.txt
+
+-Na zawsze i na wieczność, uczyńmy z życia święto,
+-By będąc tu przez chwilę wszystko zapamiętać.
+-Nasza droga nigdy się nie skończy,
+-A kto odejdzie zawsze będzie sam.
++zwrotka4.txt
+
+ Tyle samotnych dróg musiałem przejść bez Ciebie.
+ Tyle samotnych dróg musiałem przejść by móc,
+
+commit c801bb66ae1b57dd640320efe41a5868d2447b29
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:50:02 2024 +0200
+
+    przeniesienie 3 zwrotki do pliku zwrotka3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 96a63a1..334862c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,10 +4,7 @@ zwrotka2.txt
+
+ refren1.txt
+
+-Nasze oczy wreszcie się spotkały,
+-jak odbicia zagubionych gwiazd.
+-Byłaś blisko, wszystko zrozumiałem,
+-Kto odejdzie zawsze będzie sam.
++zwrotka3.txt
+
+ Na zawsze i na wieczność, uczyńmy z życia święto,
+ By będąc tu przez chwilę wszystko zapamiętać.
+
+commit 42336b1d566d7aa2f24de41799ec8cde33e56586
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:48:47 2024 +0200
+
+    przeniesienie 1 refrenu do pliku refren1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e47202f..96a63a1 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,10 +2,7 @@ zwrotka1.txt
+
+ zwrotka2.txt
+
+-Tyle samotnych dróg musiałem przejść bez Ciebie.
+-Tyle samotnych dróg musiałem przejść by móc,
+-odnaleźć Ciebie tu.
+-I wtedy padał deszcz.
++refren1.txt
+
+ Nasze oczy wreszcie się spotkały,
+ jak odbicia zagubionych gwiazd.
+
+commit ff53a1ec1556b60f62449b36cb9657846a4530c1
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:46:39 2024 +0200
+
+    przeniesienie 2 zwrotki do pliku zwrotka2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 5e68ce0..e47202f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,6 @@
+ zwrotka1.txt
+
+-Nie wiedziałem, co się ze mną dzieje,
+-Wszystko znikło byłaś tylko ty.
+-Stałaś w tęczy jak zaczarowana,
+-Świeciło słonce a z nieba padał deszcz.
++zwrotka2.txt
+
+ Tyle samotnych dróg musiałem przejść bez Ciebie.
+ Tyle samotnych dróg musiałem przejść by móc,
+
+commit 3c67287f7a8324b9ede939cbe0d9d96f17eb49ff
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:43:42 2024 +0200
+
+    przeniesienie 1 zwrotki do pliku zwrotka1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 0208914..5e68ce0 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,4 @@
+-Był chyba maj, Park na Grochowie.
+-W słoneczny dzień, zobaczyłem Cię.
+-Tańczyłaś boso, byłaś jak natchniona,
+-A po chwili zaczął padać deszcz.
++zwrotka1.txt
+
+ Nie wiedziałem, co się ze mną dzieje,
+ Wszystko znikło byłaś tylko ty.
+
+commit 32ed63c76e411d4ecda0e94001489d268d97250f
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:26:01 2024 +0200
+
+    piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..0208914
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,33 @@
++Był chyba maj, Park na Grochowie.
++W słoneczny dzień, zobaczyłem Cię.
++Tańczyłaś boso, byłaś jak natchniona,
++A po chwili zaczął padać deszcz.
++
++Nie wiedziałem, co się ze mną dzieje,
++Wszystko znikło byłaś tylko ty.
++Stałaś w tęczy jak zaczarowana,
++Świeciło słonce a z nieba padał deszcz.
++
++Tyle samotnych dróg musiałem przejść bez Ciebie.
++Tyle samotnych dróg musiałem przejść by móc,
++odnaleźć Ciebie tu.
++I wtedy padał deszcz.
++
++Nasze oczy wreszcie się spotkały,
++jak odbicia zagubionych gwiazd.
++Byłaś blisko, wszystko zrozumiałem,
++Kto odejdzie zawsze będzie sam.
++
++Na zawsze i na wieczność, uczyńmy z życia święto,
++By będąc tu przez chwilę wszystko zapamiętać.
++Nasza droga nigdy się nie skończy,
++A kto odejdzie zawsze będzie sam.
++
++Tyle samotnych dróg musiałem przejść bez Ciebie.
++Tyle samotnych dróg musiałem przejść by móc,
++odnaleźć Ciebie tu.
++I wtedy padał deszcz. 2x
++
++Tyle samotnych dróg musiałem przejść bez Ciebie.
++Tyle samotnych dróg musiałem przejść by móc,
++odnaleźć Ciebie tu.
+
+log pliku refren.txt
+
+commit 46377ae94999a99f2cc9a3b76e61b37fc4e47555
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:17:20 2024 +0200
+
+    zastapienie 2 plikow refrenu jednym
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..f218c24
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,4 @@
++Tyle samotnych dróg musiałem przejść bez Ciebie.
++Tyle samotnych dróg musiałem przejść by móc,
++odnaleźć Ciebie tu.
++I wtedy padał deszcz.
+
+log pliku zwrotka1.txt
+commit 3c67287f7a8324b9ede939cbe0d9d96f17eb49ff
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:43:42 2024 +0200
+
+    przeniesienie 1 zwrotki do pliku zwrotka1.txt
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..139f44b
+--- /dev/null
++++ b/zwrotka1.txt
+@@ -0,0 +1,4 @@
++Był chyba maj, Park na Grochowie.
++W słoneczny dzień, zobaczyłem Cię.
++Tańczyłaś boso, byłaś jak natchniona,
++A po chwili zaczął padać deszcz.
+
+log pliku zwrotka2.txt
+commit ff53a1ec1556b60f62449b36cb9657846a4530c1
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:46:39 2024 +0200
+
+    przeniesienie 2 zwrotki do pliku zwrotka2.txt
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+new file mode 100644
+index 0000000..964911c
+--- /dev/null
++++ b/zwrotka2.txt
+@@ -0,0 +1,4 @@
++Nie wiedziałem, co się ze mną dzieje,
++Wszystko znikło byłaś tylko ty.
++Stałaś w tęczy jak zaczarowana,
++Świeciło słonce a z nieba padał deszcz.
+
+
+log pliku zwrotka3.txt
+commit c801bb66ae1b57dd640320efe41a5868d2447b29
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:50:02 2024 +0200
+
+    przeniesienie 3 zwrotki do pliku zwrotka3.txt
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..e2fe7d1
+--- /dev/null
++++ b/zwrotka3.txt
+@@ -0,0 +1,4 @@
++Nasze oczy wreszcie się spotkały,
++jak odbicia zagubionych gwiazd.
++Byłaś blisko, wszystko zrozumiałem,
++Kto odejdzie zawsze będzie sam.
+
+
+log pliku zwrotka4.txt
+commit 8e74437b1c641edd7055f39b306d8a7f2f1b6a53
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:51:44 2024 +0200
+
+    przeniesienie 4 zwrotki do pliku zwrotka4.txt
+
+diff --git a/zwrotka4.txt b/zwrotka4.txt
+new file mode 100644
+index 0000000..a4b7c79
+--- /dev/null
++++ b/zwrotka4.txt
+@@ -0,0 +1,4 @@
++Na zawsze i na wieczność, uczyńmy z życia święto,
++By będąc tu przez chwilę wszystko zapamiętać.
++Nasza droga nigdy się nie skończy,
++A kto odejdzie zawsze będzie sam.
+
+git log 
+
+commit 69c64ab03db8e8ec85b9d548b91120bc57638423 (HEAD -> master)
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:17:34 2024 +0200
+
+    zastapienie 2 plikow refrenu jednym
+
+commit 46377ae94999a99f2cc9a3b76e61b37fc4e47555
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:17:20 2024 +0200
+
+    zastapienie 2 plikow refrenu jednym
+
+commit f67d297f74ee8b265c43f5849dbc0d418caa3e1f
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 23:08:57 2024 +0200
+
+    Revert "przeniesienie 1 refrenu do pliku refren1.txt"
+
+    This reverts commit 42336b1d566d7aa2f24de41799ec8cde33e56586.
+
+commit 49be52268e3b756dd1c9f919139928eea9f56e37
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:59:34 2024 +0200
+
+    Revert "usuniecie linii z refrenu"
+
+    This reverts commit 4b09033cdb669ee58e854201ff122ed76a55243a.
+
+commit 4b09033cdb669ee58e854201ff122ed76a55243a
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:57:06 2024 +0200
+
+    usuniecie linii z refrenu
+
+commit c7d84b4b3cca2ece7253fa3d82f216755d1cba53
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:53:11 2024 +0200
+
+    przeniesienie 2 refrenu do pliku refren2.txt
+
+commit 8e74437b1c641edd7055f39b306d8a7f2f1b6a53
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:51:44 2024 +0200
+
+    przeniesienie 4 zwrotki do pliku zwrotka4.txt
+
+commit c801bb66ae1b57dd640320efe41a5868d2447b29
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:50:02 2024 +0200
+
+    przeniesienie 3 zwrotki do pliku zwrotka3.txt
+
+commit 42336b1d566d7aa2f24de41799ec8cde33e56586
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:48:47 2024 +0200
+
+    przeniesienie 1 refrenu do pliku refren1.txt
+
+commit ff53a1ec1556b60f62449b36cb9657846a4530c1
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:46:39 2024 +0200
+
+    przeniesienie 2 zwrotki do pliku zwrotka2.txt
+
+commit 3c67287f7a8324b9ede939cbe0d9d96f17eb49ff
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:43:42 2024 +0200
+
+    przeniesienie 1 zwrotki do pliku zwrotka1.txt
+
+commit 32ed63c76e411d4ecda0e94001489d268d97250f
+Author: Nem T. Lea <nemtielea@gmail.com>
+Date:   Wed Apr 3 22:26:01 2024 +0200
+
+    piosenka.txt
+
+
