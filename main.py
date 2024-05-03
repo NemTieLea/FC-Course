@@ -83,3 +83,53 @@ krotka = tuple(lista)
 print("Tuple:", krotka)
 lista = list(krotka)
 print("Lista:", lista)
+
+var_1, var_2, var_3 = lista
+print("Var 1:", var_1)
+print("Var 2:", var_2)
+print("Var 3:", var_3)
+
+print()
+
+animals = [
+    ["pies", "Azor", 12],
+    ["kot", "Pat", 10],
+    ["ryba", "Balbinka", 2],
+]
+
+for (gatunek, imie, wiek) in animals:
+    print(f"{imie} to {gatunek}, ma {wiek} lat.")
+
+print()
+
+# ZBIORY - set()
+przykladowy_zbior = {"a", "abc", 1, True, None, False}
+print(przykladowy_zbior)
+
+print("Zbior:", przykladowy_zbior)
+print("True w zbiorze:", True in przykladowy_zbior)
+print("'abc' w zbiorze", 'abc' in przykladowy_zbior)
+print()
+
+# SLOWNIKI - dictionary - dict()
+# print(id('abc')) - sprawdzanie id
+slownik = {
+    "Graniczna 1": ["Adam Nowak"],
+    "Graniczna 2": ["Szlemek zero", "Sztabowy Jakub"],
+    "Graniczna 4": [],
+}
+
+#adres = input("Jaki adres chcesz sprawdzic: ")
+#print("Pod tym adresem mieszka:")
+#print(slownik[adres])
+
+slownik["Graniczna 5"] = ["Jan Nowak"]
+
+for element in slownik:
+    print("Klucz:", element, "Wartosc:", slownik[element])
+
+print()
+
+for klucz2, wartosc2 in slownik.items():
+    print("Klucz:", klucz2, " | Wartosc:", wartosc2)
+
