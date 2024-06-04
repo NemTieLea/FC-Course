@@ -1,0 +1,3 @@
+to jest tekst
+tekst jest z pliku
+tekstu sa 3 linijki

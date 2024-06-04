@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "marka": "mercedes",
+    "model": "s",
+    "kolor": "czarny"
+  },{
+    "id": 2,
+    "marka": "fiat",
+    "model": "500",
+    "kolor": "czerwony"
+  }
+]
